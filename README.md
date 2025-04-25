@@ -1,25 +1,25 @@
-# Web Research Agent
+# Web Research Agent 🚀
 
-🤖 An AI-powered Web Research Agent built using **Streamlit** + **Google Gemini** APIs.  
-It intelligently analyzes user queries, searches the web, scrapes information, and generates clean, accurate research summaries with minimal human input.
+🤖 An AI-powered Web Research Agent built using **Streamlit** + **Google Gemini APIs**.  
+It intelligently analyzes user queries, performs real-time web searches, extracts data from multiple sources, and generates clean, concise research summaries — all with minimal human input.
 
 ---
 
 ## 📌 Features
 
-- ✨ Understands complex user queries and breaks them into search-friendly keywords
-- 🔎 Searches the web for real-time information
-- 🖥️ Scrapes and extracts relevant content from web pages
-- 🧠 Analyzes and synthesizes multiple sources into a cohesive final research report
-- 🔁 Detects and handles follow-up queries vs new queries intelligently
-- 📥 Allows easy downloading of full research summaries
-- 🛡️ Handles errors like quota limits, no results found, and scraping failures gracefully
-- 🎛️ Model Switching: Choose between **Gemini-1.5-Pro** or **Gemini-1.5-Flash** dynamically
-- ✅ Unit tested with Pytest to ensure stability
+- ✨ Understands complex user queries and breaks them into searchable components
+- 🔎 Performs real-time web searches using simulated Serper API
+- 🖥️ Scrapes and extracts relevant data using BeautifulSoup
+- 🧠 Analyzes and synthesizes multi-source information into a single cohesive summary
+- 🔁 **Bonus:** Smartly detects and handles follow-up queries vs new topics (optional enhancement)
+- 📥 One-click download of generated research summaries
+- 🛡️ Robust error handling: quota, search failure, scraping issues, etc.
+- 🎛️ Model switching: Easily toggle between **Gemini-1.5-Pro** and **Gemini-1.5-Flash**
+- ✅ Fully unit tested using **Pytest**
 
 ---
 
-## 🏗️ Architecture (Agent Flow)
+## 🏗️ Architecture Overview
 
 ```mermaid
 flowchart TD
@@ -30,8 +30,7 @@ flowchart TD
     E --> F[Summary Synthesizer]
     F --> G[Streamlit UI Response]
     G --> H[Download Button]
-    G --> I[Detect Follow-Up or New Query]
-```
+    G --> I[Follow-Up Detection]
 
 ---
 
@@ -100,8 +99,8 @@ pytest tests/
 
 ---
 
-## 📷 Loom Video Plan (5 minutes)
-
+## 📷 GDrive Video 
+🔗[Link](https://drive.google.com/file/d/1sPscbmhHlYJV3JejPAbYUFvtQFf3_Ya9/view?usp=sharing)
 
 
 ---
