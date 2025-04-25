@@ -54,7 +54,7 @@ flowchart TD
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/web-research-agent.git
+git clone https://github.com/Priyankaprakash25/web-research-agent
 cd web-research-agent
 ```
 
